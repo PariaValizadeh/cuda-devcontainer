@@ -2,11 +2,14 @@
 This repo configures a CUDA enabled python development container. 
 If you are unfamiliar with development containers, check out [this page](https://github.com/microsoft/vscode-dev-containers).
 
+**Note:** This repository is a fork of [`mirzai/cuda-devcontainer`](https://github.com/mirzai/cuda-devcontainer), but it closely follows the structure and configuration of [`raphaelschwinger/cuda-python-devcontainer`](https://github.com/raphaelschwinger/cuda-python-devcontainer), from which most of the setup has been adapted.
+
+
 ## Installation
 
 1. Add repo as submodule
 ```
-git submodule add git@github.com:raphaelschwinger/cuda-python-devcontainer.git .devcontainer
+git submodule add git@github.com:pariaValizadeh/cuda-devcontainer.git .devcontainer
 ```
 
 2. Set `CUDA_VERSION` and `VARIANT` in `.devcontainer/devcontainer.json` to your desired values. 
