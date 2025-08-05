@@ -9,7 +9,7 @@ If you are unfamiliar with development containers, check out [this page](https:/
 
 1. Add repo as submodule
 ```
-git submodule add git@github.com:pariaValizadeh/cuda-devcontainer.git .devcontainer
+git submodule add git@github.com:PariaValizadeh/cuda-devcontainer.git .devcontainer
 ```
 
 2. Set `CUDA_VERSION` and `VARIANT` in `.devcontainer/devcontainer.json` to your desired values. 
